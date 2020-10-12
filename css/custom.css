@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	background-color: #e8e7e3;
+}
+ul {
+    list-style-type: none;
+}
+a{
+	color: black;
+}
+													/*HEADER START*/
+header div div img{
+	margin:30px 0 30px 50px;
+}
+header img{
+	width: 200px;
+	height: 100px;
+}
+header li {
+	margin:0 60px;
+	background-color: #a3a3a2;
+}
+header div form{
+	margin:20px 100px 0 0;
+}
+header{
+	border-bottom: 2px solid #000000;
+}
+													/*HEADER END*/
+													/*NAV START*/
+nav a {
+	background-color: #d0d5db;
+	margin-top: 10px;
+}
+													/*NAV END*/
+													/*SECTION START*/
+section{
+	margin: 25px;
+}
+section h3{
+	border-bottom: 2px solid #000000;
+}
+section{
+	border-bottom: 2px solid #000000;
+}
+													/*SECTION END*/
+													/*MAIN START*/
+main ul div div li button{
+	margin: 10px;
+}
+main{
+	border-bottom: 2px solid #000000;
+}
+
+													/*MAIN END*/
+													/*SECTION START*/
+.second img{
+	max-width: 20%;
+	margin: 20px;
+}
+													/*SECTION END*/
+													/*FOOTER START*/
+footer{
+	border-bottom: 2px solid #000000;
+}
+footer div div img{
+	max-width: 15%;
+	margin: 10px;
+}
+footer h3{
+	border-bottom: 2px solid #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
